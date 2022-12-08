@@ -1,0 +1,18 @@
+[
+    {
+        "Digest":"\"SSH-2.0-OpenSSH_7.9p1 De\"",
+        "IP":"10.20.35.15",
+        "Info":"protocol 2.0",
+        "Keyword":"ssh",
+        "Length":"36",
+        "MatchRegexString":"^SSH-([\\d.]+)-OpenSSH_([\\w._-]+)[ -]{1,2}Debian[ -_]([^\\r\\n]+)\\r?\\n",
+        "OperatingSystem":"Linux",
+        "Port":"22",
+        "ProbeName":"TCP_NULL",
+        "ProductName":"OpenSSH",
+        "Response":"SSH-2.0-OpenSSH_7.9p1 Debian-1+dde\r\n",
+        "Service":"ssh",
+        "URL":"ssh://10.20.35.15:22",
+        "Version":"7.9p1 Debian 1+dde"
+    }
+]
